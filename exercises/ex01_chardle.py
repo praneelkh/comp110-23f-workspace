@@ -20,36 +20,26 @@ else:
         print("Searching for " + character + " in " + word)
 
         if word[0] == character:
-            print (character + " found at index 0")
+            print(character + " found at index 0")
             char_count += 1
         if word[1] == character:
-            print (character + " found at index 1")
+            print(character + " found at index 1")
             char_count += 1
-        if word [2] == character: 
-            print (character + " found at index 2")
+        if word[2] == character: 
+            print(character + " found at index 2")
             char_count += 1
         if word[3] == character:
-            print (character + " found at index 3")
+            print(character + " found at index 3")
             char_count += 1
         if word[4] == character:
-            print (character + " found at index 4")
+            print(character + " found at index 4")
             char_count += 1
 
         if char_count == 0: 
-            print ("No instances of " + character + " found in " + word)
+            print("No instances of " + character + " found in " + word)
 
         elif char_count == 1:
-            print ("1 instance of " + character + " found in " + word)
+            print("1 instance of " + character + " found in " + word)
 
         else:
-            print (str(char_count)+ " instances of " + character + " found in " + word)
-
-
-
- 
-
-
-
-
-
-
+            print(str(char_count) + " instances of " + character + " found in " + word)

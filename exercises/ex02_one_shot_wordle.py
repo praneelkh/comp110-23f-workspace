@@ -31,13 +31,13 @@ if guess != secret_word:
             # Comparing a single letter from the guess to every letter in secret word
             matching_char: bool = False
             alt_idx: int = 0 
-            while matching_char == False and alt_idx < len(secret_word):
+            while matching_char is False and alt_idx < len(secret_word):
                 if guess[guess_idx] == secret_word[alt_idx]:
                     matching_char = True
                 else:
                     alt_idx += 1
             # Adding yellow box if correct letter is in wrong place
-            if matching_char == True:
+            if matching_char is True:
                 emoji_boxes += YELLOW_BOX
             # Adding a white box if wrong letter
             else:
